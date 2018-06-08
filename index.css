@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-/* Header CSS */
+/* Header Div CSS */
 #header-content {
     max-height: 30%;
     height: 450pt;
@@ -14,12 +14,7 @@ body {
     position: relative;
 }
 
-.header-background {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
+/* Center the Header Information in the Header */
 .header-info {
     position: absolute;
     top: 50%;
@@ -32,16 +27,19 @@ body {
     font-family: 'BioRhyme Expanded', sans-serif, serif;
 }
 
+/* Logo Size and Color*/
 .logo-font {
     font-size: 25px;
     color: black;
 }
 
+/* Header Area Font on Index*/
 .header-font {
     font-size: 60px;
     color: whitesmoke;
 }
 
+/* Cart Area Icon */
 .cart-area {
     text-align: center;
     border-left: 1px solid black;
@@ -49,6 +47,13 @@ body {
     padding: 0;
 }
 
+/* Section Padding */
+.section-padding-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Left Margin 15 to All Nav Items*/
 .nav-item {
     margin-left: 15px;
 }
