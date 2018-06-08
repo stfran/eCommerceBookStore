@@ -58,6 +58,12 @@ body {
     margin-left: 15px;
 }
 
+.item {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
 /* Work Around to Enable Google Fonts */
 body {
     -webkit-animation-delay: 0.1s;
